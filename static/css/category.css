@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.circle{
+    bottom: 0px;
+    left: 0px;
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #CFF4FE;
+    box-shadow: 0 0 1000px #CFF4FE;
+    filter: blur(120px);
+    overflow: hidden;
+}
+
+.circle2{
+    top: 0;
+    right: 0px;
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #CFF4FE;
+    box-shadow: 0 0 1000px #CFF4FE;
+    filter: blur(120px);
+    overflow: hidden;
+}
+
+#angel {
+    width: 10;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+#logo {
+    width: 15%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 5%;
+    right: 40%;
+}
+
+#exit {
+    width: 30%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    z-index: 5;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+}
+
+.first, .second, .Submit{
+    display : flex;
+
+}
+
+.first > button, .second > button{
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    color: #68aafa;
+    font-size: 20px;
+    font-family: "Jua", sans-serif;
+    width: 280px;
+    height: 70px;
+    background-color: #CFF4FE;
+    border-radius: 25px;
+    border: none;
+    margin-right: 77px;
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+
+.Submit{
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    color: #708AF4;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    background-color: #D6DEFF;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 5%;
+    right: 45%;
+    z-index: 4;
+}
+
+.text{
+    text-decoration: none;
+    text-align: center;
+    color: #1CA7CE;
+    font-size: 18px;
+    font-family: "Jua", sans-serif;
+    width: 90%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+}
+
+#finish {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    width: 10%;
+    height: 15%;
+
+}
+
+#tutorial {
+    display: flex;
+    background-color: #BFB6B6;
+    opacity : 0.8;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+#box_finish {
+    background-color: #86d9ff;
+    border-radius: 50%;
+    filter: blur(30px);
+    width: 100%;
+    height: 80%;
+    z-index: 3;
+    position: absolute;
+    top: -7%;
+}
+
+#img_finish {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    right: 30%;
+    z-index: 5;
+}
+
+#p_finish {
+    background-color: white;
+    border-radius: 50px;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 70%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jua", sans-serif;
+    font-size: 100%;
+    border-width: 1%;
+}
+
+#tutorial_open {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    width: 10%;
+    height: 15%;
+
+}
+
+#box_tutorial_open {
+    background-color: #86d9ff;
+    border-radius: 50%;
+    filter: blur(30px);
+    width: 100%;
+    height: 80%;
+    z-index: 3;
+    position: absolute;
+    top: -7%;
+}
+
+#img_tutorial_open {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    right: 30%;
+    z-index: 5;
+}
+
+#p_tutorial_open {
+    background-color: white;
+    border-radius: 50px;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 70%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jua", sans-serif;
+    font-size: 100%;
+    border-width: 1%;
+}
+
+#talk1 {
+    background-color: #7ed1f8;
+    color: white;
+    border-radius: 4px;
+    width: 25%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jua", sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 14%;
+    font-size: 15px;
+    z-index: 5;
+}
+
+#highlight1 {
+    background-color: yellow;
+    opacity: 0.3;
+    z-index: 8;
+    width: 22%;
+    height: 12%;
+    position: absolute;
+    top: 49%;
+    left: 16%;
+    z-index: 50;
+}
+
+#talk2 {
+    background-color: #7ed1f8;
+    color: white;
+    border-radius: 4px;
+    width: 13%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jua", sans-serif;
+    position: absolute;
+    top: 78%;
+    left: 45%;
+    font-size: 15px;
+    z-index: 5;
+}
+
+#highlight2 {
+    background-color: #FCEE76;
+    opacity: 0.5;
+    width: 9%;
+    height: 10%;
+    position: absolute;
+    bottom: 3%;
+    right: 44%;
+    z-index: 100;
+}
