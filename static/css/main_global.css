@@ -204,24 +204,6 @@ header{
     z-index: 2;
 }
 
-#chatbot{
-    width: 140px;
-    height: 30px;
-    position: absolute;
-    right: 320px;
-    top: 150px;
-    color: #6AD0FF;
-    border: 1px solid #6AD0FF;
-    background-color: rgb(255, 255, 255);
-    font-size: 15px;
-    font-family: "Jua", sans-serif;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 0px;
-    z-index: 2;
-}
-
 .heart>a:hover ~ .menubar2 { display: block; } 
 .menubar2:hover {display: block;}
 .menubar2 { display: none; }
